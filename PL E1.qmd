@@ -5,12 +5,9 @@ format: pptx
 editor: visual
 ---
 
-
-
 ```{r remedy003 setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
 
 ## Ejemplo 1:
 

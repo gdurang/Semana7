@@ -1,5 +1,3 @@
-
-
 #Realiza a sus clientes la oferta siguiente: Lote A: 3 paquetes de detergente y 3 botellas de
 #lavavajillas. Lote B: 2 paquetes de detergente y 4 botellas de lavavajillas. El precio de venta de cada lote A es de 24
 #euros y de cada lote B, 22 euros, pero no pueden venderse más de 9 lotes de la clase B. En el almacén hay 36 paquetes
@@ -7,7 +5,9 @@
 #que vender para que el beneficio sea máximo. 3) Calcula el beneficio máximo.
 #devtools::install_github("relund/gMOIP",build_vignettes= TRUE)
 # Importando el paquete gMOIP
+
 if (!require("gMOIP")) {install.packages("gMOIP", dependencies = TRUE);library(gMOIP)}
+
 # Detreminando Matriz, función objetivo y restricciones
 A = matrix(c(3,2,3,4,0,1), nrow = 3, byrow = TRUE)
 b = c(36, 48, 9)
